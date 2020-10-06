@@ -15,7 +15,7 @@ public class TestBaseUI {
     public static void beforeSuite() {
 
         final String URL_STRING = "https://trello.com/login";
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\cclavijo\\OneDrive - ENDAVA\\Documents\\Java\\Webdriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/java/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(URL_STRING);
