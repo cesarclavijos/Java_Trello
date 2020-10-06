@@ -26,12 +26,12 @@ public class TestBaseUI {
     }
 
 
-    /*@AfterClass
+    @AfterClass
     public static void afterSuite() {
         if(null != driver) {
             driver.close();
             driver.quit();
         }
-    }*/
+    }
 
 }
