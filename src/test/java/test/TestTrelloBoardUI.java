@@ -33,7 +33,8 @@ public class TestTrelloBoardUI extends TestBaseUI {
     public void AddComent() throws InterruptedException {
         boardPage.SelectFirstItemInToDo();
         cardPage.AddDescription();
-        String TextoCard = cardPage.Description();
+        String TextCard = cardPage.Description();
+        assert TextCard != null ;
     }
 
 

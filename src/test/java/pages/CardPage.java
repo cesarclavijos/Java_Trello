@@ -37,7 +37,7 @@ public class CardPage  extends basepage {
     }
 
     public void AddDescription(){
-        if (Descriptiontext.isDisplayed() == true)
+        if (Descriptiontext.isEnabled())
         {
             DescriptionField.click();
         }
